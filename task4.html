@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <style>
+        table, th, td {
+  border: 1px solid;
+}
+    </style>
+</head>
+<body>
+    <a href="/index.html">Back</a>
+    <hr />
+    <h1>Let's create some amazing tables</h1>
+    <h2>Here is some information about cool pets:</h2>
+    <table width="80%">
+        <caption>Table of pets</caption>
+
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th colspan="3">Pet info</th>
+                <th colspan="2">Owner info</th>
+            </tr>
+        </thead>
+
+        <tbody>
+                    <tr>
+                    <td rowspan="0">13.09.2021</td>
+                        <th>Name</th>
+                        <th>Spieces</th>
+                        <th>Age</th>
+                        <th>Name</th>
+                        <th>City</th>
+                    </tr>
+            <tr>
+                
+                <td>Bill</td>
+                <td>Pony</td>
+                <td>4</td>
+                <td>Sam</td>
+                <td>Manchester</td>
+            </tr>
+            <tr>
+                
+                <td>Hedwig</td>
+                <td>Bark owl</td>
+                <td>3</td>
+                <td>Harry</td>
+                <td>London</td>
+            </tr>
+            <tr>
+                
+                <td>Scabbers</td>
+                <td>Rat</td>
+                <td>7</td>
+                <td>Ronald</td>
+                <td>London</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    <h2>Let's take a look on owr pets</h2>
+    <h3>Bill</h3>
+    <p>Bill's photo from the pics folder:</p>
+    <img src="./images/bill.jpg" alt="Bill's photo" width="200" height="200">
+    <hr />
+    <h3>Hedwig</h3>
+    <p>Hedwig's photo is from the internet, because we don't have our own photo.</p>
+    <p>We changed it size to 75% of screen width because it was too large.</p>
+    <p>Also if you make screen width smaller, you'll see Hedwig a bit closer.</p>
+  <picture>
+    <source media="(min-width: 700px)" srcset="https://images.ctfassets.net/usf1vwtuqyxm/lbxISOVdOS64U428cc6mW/d4f3c826f6fc0f6b856c5e62c1be61c4/WB_F1_Hedwig_HarryHoldsHedwig_1383R_v2.jpg" width="75%" height="auto">
+    <img src="https://pm1.narvii.com/6014/baeafb4e67fb42dedc84ff26124843fb24aca1a5_hq.jpg" alt="Hedwig's photo" width="75%" height="auto">
+  </picture>
+  <h3>Scabbers</h3>
+  <p>There is not only Scabbers on the next picture. Try to find all characters using mouse pointer.</p>
+  <img src="./images/scabbers.jpg" alt="Pets picture" usemap="#petsmap">
+  <map name="petsmap">
+    <area shape="circle" coords="150, 80, 20" href="https://harrypotter.fandom.com/wiki/Harry_Potter" alt="Harry Potter" title="Harry Potter">
+    <area shape="circle" coords="150, 40, 20" href="https://harrypotter.fandom.com/wiki/Hermione_Granger" alt="Hermione Granger" title="Hermione Granger">
+    <area shape="circle" coords="180, 60, 20" href="https://harrypotter.fandom.com/wiki/Ronald_Weasley" alt="Ronald Weasley" title="Ronald Weasley">
+    <area shape="circle" coords="220, 360, 30" href="https://harrypotter.fandom.com/ru/wiki/%D0%9A%D0%BE%D1%80%D0%BE%D1%81%D1%82%D0%B0" alt="Scabbers" title="Scabbers">
+    <area shape="rect" coords="60, 200, 170, 120" href="https://harrypotter.fandom.com/wiki/Crookshanks" alt="Crookshanks" title="Crookshanks">
+  </map>
+</body>
+</html>
